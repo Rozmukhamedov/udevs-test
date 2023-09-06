@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import classes from "./style.module.css";
 import { ReactComponent as ArroDownIcon } from "../../assets/images/ArrowDown.svg";
 
