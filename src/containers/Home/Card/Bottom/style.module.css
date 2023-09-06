@@ -1,0 +1,50 @@
+.bottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bottom button {
+    width: 100%;
+    margin-right: 6px;
+    padding: 4px;
+    border-radius: 6px;
+}
+
+.bottom button:last-child {
+    margin: 0;
+}
+
+.bottom .delete {
+    border: 1px solid #E5E9EB;
+    background: #ffffff;
+    color: #F76659;
+    text-align: justify;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.bottom .delete:hover {
+    background: #F76659;
+    color: #ffffff;
+}
+
+.bottom .next {
+    border: 1px solid #0E73F6;
+    background: #ffffff;
+    color: #0E73F6;
+    text-align: justify;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.bottom .next:hover {
+    background: #0E73F6;
+    color: #ffffff;
+}

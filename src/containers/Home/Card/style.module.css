@@ -1,0 +1,106 @@
+.card {
+    background: #ffffff;
+    margin-bottom: 8px;
+}
+
+.card:last-child {
+    margin-bottom: 0;
+}
+
+.card .top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px -1px 0px 0px #E5E9EB inset;
+    padding: 12px;
+}
+
+.card .top .flex {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.card .top .flex h3 {
+    color: #1A2024;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    margin-right: 5px;
+}
+
+.card .top .flex p {
+    color: #6E8BB7;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 21px;
+}
+
+.card .top .flex svg {
+    margin: 0 6px;
+}
+
+.card .top .flex svg:last-child {
+    margin: 0;
+}
+
+.card .center {
+    padding: 6px 12px;
+    box-shadow: 0px -1px 0px 0px #E5E9EB inset;
+}
+
+.card .center .info {
+    margin-bottom: 12px;
+    display: flex;
+    flex-direction: row;
+}
+
+.card .center .info .left {
+    margin-right: 6px;
+}
+
+.card .center .info h4 {
+    color: #000;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 21px;
+}
+
+.card .center .info p {
+    color: #48535B;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.card .center .time {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.card .center .time p {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: #6E8BB7;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 18px;
+    letter-spacing: -0.072px;
+}
+
+.card .center .time p svg {
+    margin-right: 5px;
+}
+
+.card .bottom {
+    padding: 12px;
+}

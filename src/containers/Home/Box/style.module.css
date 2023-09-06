@@ -1,0 +1,28 @@
+.box {
+    border-radius: 6px;
+    width: 326px;
+}
+
+.box .top {
+    padding: 12px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+}
+
+.box .top h4 {
+    color: #FFF;
+    text-align: justify;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.7px;
+    text-transform: uppercase;
+}
+
+.box .orders {
+    padding: 12px 8px;
+    background: #EEF0F2;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
