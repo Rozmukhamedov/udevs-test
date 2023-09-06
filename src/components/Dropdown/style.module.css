@@ -1,0 +1,19 @@
+.dropdown {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.dropdown .title {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.dropdown p {
+    color: #6E8BB7;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 21px;
+}

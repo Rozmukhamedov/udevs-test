@@ -17,6 +17,7 @@ type CardProps = {
       delivery: string;
       time: string;
       info: any;
+      comment: string;
     }
   ];
   order: {
@@ -27,6 +28,7 @@ type CardProps = {
     delivery: string;
     time: string;
     info: any;
+    comment: string;
   };
 };
 

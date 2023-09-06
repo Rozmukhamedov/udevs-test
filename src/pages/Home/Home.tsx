@@ -15,6 +15,7 @@ function Home() {
       payment: "payme",
       delivery: "delivery",
       time: "15:22",
+      comment: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, voluptatem!",
       info: [
         {
           piece: 3,
@@ -30,6 +31,7 @@ function Home() {
       payment: "card",
       delivery: "delivery",
       time: "15:22",
+      comment: null,
       info: [
         {
           piece: 3,
@@ -72,6 +74,7 @@ function Home() {
           plus: [],
         },
       ],
+      comment: null,
     },
     {
       id: 222222,
@@ -80,6 +83,7 @@ function Home() {
       payment: "payme",
       delivery: "delivery",
       time: "15:22",
+      comment: null,
       info: [
         {
           piece: 3,
@@ -105,6 +109,7 @@ function Home() {
       payment: "payme",
       delivery: "delivery",
       time: "15:22",
+      comment: null,
       info: [
         {
           piece: 3,

@@ -15,6 +15,7 @@ type BoxProps = {
       delivery: string;
       time: string;
       info: any;
+      comment: string;
     }
   ];
   setOrders?: (e: any) => void;

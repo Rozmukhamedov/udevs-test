@@ -1,5 +1,5 @@
 import classes from "./style.module.css";
-import { Button } from "../../../../components";
+import { Button, Dropdown } from "../../../../components";
 
 type BottomProps = {
   setOrders?: any;
@@ -12,6 +12,7 @@ type BottomProps = {
       delivery: string;
       time: string;
       info: any;
+      comment: string;
     }
   ];
   order: {
@@ -22,6 +23,7 @@ type BottomProps = {
     delivery: string;
     time: string;
     info: any;
+    comment: string;
   };
 };
 
@@ -54,7 +56,8 @@ function Bottom({ order, orders, setOrders }: BottomProps) {
 
   if (order?.status == "blank") {
     return (
-      <div className={classes.bottom}>
+      <div className={classes.bottom} style={{ flexDirection: "column" }}>
+        {!!order?.comment ? <Dropdown text={order?.comment} /> : null}
         <Button
           className={classes.next}
           type="button"
